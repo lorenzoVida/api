@@ -1,0 +1,227 @@
+17:16:17.770 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:16:17.781 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+17:16:19.637 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:19.688 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:19.705 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:19.719 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:19.732 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:20.112 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:16:20.113 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+1 > Accept-Encoding: gzip,deflate
+{
+  "email": "lannie.boyle@yahoo.com",
+  "password": "cityslicka"
+}
+
+
+17:16:20.113 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+1 > Accept-Encoding: gzip,deflate
+{
+  "email": "eve.holt@reqres.in",
+  "password": "Automation794L"
+}
+
+
+17:16:20.113 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 44
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+1 > Accept-Encoding: gzip,deflate
+{
+  "email": "eve.holt@reqres.in",
+  "password": ""
+}
+
+
+17:16:20.114 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+1 > Accept-Encoding: gzip,deflate
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+
+
+17:16:20.704 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 588
+1 < 200
+1 < Date: Thu, 10 Aug 2023 22:16:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 3181
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dr3AtFVKFjyh1KJnOYHHwk8rsCGSHIHPpy7wpSKjBNSZlqdn%2BIkUwJjQycVR8lydiPVzx%2FYUfzIQK%2BFtJ8snKS0tKgTvTjyxXfVRSm8q61ydRpLbvoewadcIgw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7f4b9a4a2f28a78a-EZE
+{
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+
+
+17:16:20.742 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+17:16:20.804 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.13)
+1 > Accept-Encoding: gzip,deflate
+{
+  "name": "Chang",
+  "job": "Investor"
+}
+
+
+17:16:21.110 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 997
+1 < 400
+1 < Date: Thu, 10 Aug 2023 22:16:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 26
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gz9hVEIYaoZ94xvrkl%2BeLGL%2B8QDbsMAAA6gLB5kHcQYAApFC53GP3ZrR1cyn%2Fx3cn4yDkofiJd5Pz5FV3gJ3xCL4NLhg94xf%2BJ7JaoJL2o5iOzVCumPS3k2jDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f4b9a4a2ab31ea5-EZE
+{
+  "error": "user not found"
+}
+
+
+17:16:21.122 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1008
+1 < 200
+1 < Date: Thu, 10 Aug 2023 22:16:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 29
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1nrNLPjyFlLYSifEjlpKbIAxCcRKACTCxM371Rp1BfTFwtXn1xLMJXJqIk5%2FwJUSVOL8TkDzu2adbuCJopu6zYBGvqg7Nz8pKV0PossjfUzOvY7xHE%2FGA6jcXg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f4b9a4a2c3ea7a1-EZE
+{
+  "token": "QpwL5tke4Pnpja7X4"
+}
+
+
+17:16:21.139 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1025
+1 < 400
+1 < Date: Thu, 10 Aug 2023 22:16:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 28
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dd6lB7sxx7wBYUn6OlHun%2BQ12K2aYyDzNjHDSkZYWXlcbIvo5jQnPKhWVd%2FfRKeSfRigFtUc4rI9VD%2BrnSy9AYcJPlp5LYx1lW8svv40MUkzRr1h1wsE7J0Zqg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f4b9a4a2a6e1e7b-EZE
+{
+  "error": "Missing password"
+}
+
+
+17:16:21.150 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1037
+1 < 200
+1 < Date: Thu, 10 Aug 2023 22:16:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 36
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mWxJxwgy%2FHSLYow8Muuk8ussfpwSbm4%2BPb2zDsqrwAHh52qIqruXHbM27xCUzKznRmJYb67VAgvqLRjkrSu0AGCGTCeCFA%2FVO7cfyJZSDqg5fNLkmDfdiuGKDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f4b9a4a29381fe7-EZE
+{
+  "id": 4,
+  "token": "QpwL5tke4Pnpja7X4"
+}
+
+
+17:16:21.480 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 675
+1 < 201
+1 < Date: Thu, 10 Aug 2023 22:16:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-Fvn7ZKVF81Q3g9897wLnVXnEU/U"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eotRLms3CjTgWyjYbMEn4vudZ%2Fw3tuSRHxQAeR0v2pNx%2Fnr7HxfD9GkmQgIPKol955t05%2BK8EWMHfaGVvjsYLY%2BMUl1KPrVGRubHnNZ87b1x0ZtDKxpdHbKUPQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7f4b9a4c4ea91e9a-EZE
+{
+  "name": "Chang",
+  "job": "Investor",
+  "id": "521",
+  "createdAt": "2023-08-10T22:16:21.520Z"
+}
+
+
+17:16:22.244 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 4 (3 remaining) classpath:Sesion3/EmbebidasMultilinea/RegisterUser.feature
+17:16:22.461 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 4 (2 remaining) classpath:Sesion3/EscenarioBasadoDatos/ScenatioDataOutline.feature
+17:16:22.565 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 4 (1 remaining) classpath:Sesion3/Esquemas/ListUser.feature
+17:16:22.656 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 4 (0 remaining) classpath:Sesion3/LeyendoArchivos/CreateUser.feature
